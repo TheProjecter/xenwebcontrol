@@ -86,8 +86,8 @@ function loadConfigs(){
 					.append($("<th/>").text("Mem"))
 					.append($("<th/>").text("Config"))
 					.append($("<th/>").text("Start"))
-					.append($("<th/>").text("Restart"))
 					.append($("<th/>").text("Shutdown"))
+					.append($("<th/>").text("Restart"))
 					.append($("<th/>").text("Destroy"))
 			)
 		);
