@@ -1,0 +1,134 @@
+body{
+	background-color: #000000;
+	margin:0px;
+	background-image:url('/images/background.jpg') ;
+	background-repeat:no-repeat;
+}
+body,table,tr,td,th{
+	font-size:0.95em;
+}
+td,th{
+	padding:0px;
+}
+table{
+	/*border: 1px solid #000000;*/
+}
+td{
+	/*border-bottom: 1px solid #000000;*/
+}
+.float_left{
+	float:left;
+}
+.hide{
+	display:none;
+}
+/*#statusline{
+	position:absolute;
+	line-height:50px;
+	z-index:99;
+	width:100%;
+	background-color: #f5ffef;
+	color: #1c4605;
+	border-bottom: 1px solid #558f36;
+	text-align:center;
+	font-size: 1.3em;
+	vertical-align:middle;
+	opacity:0.9;
+	font-weight:bold;
+}*/
+.icon{
+	cursor:crosshair;
+	height:20px;
+	width:20px;
+}
+.icon.start{
+	background-image: url('/images/start.png');
+}
+.flexigrid div.bDiv td.actionButton div{
+	padding:0px;
+}
+#runningcontainer{
+	position:absolute;
+	right:0px;
+}
+#configscontainer,#machineDetailcontainer{
+	margin:5px;
+}
+#configscontainer{
+	position:absolute;
+	top:150px;
+	left:90px;
+	overflow:auto;
+	height:400px;
+	width:500px;
+	background:#A1CE93;
+}
+#configscontainer table{
+	/*width:100%;
+	height:350px;     */
+}
+#configscontainer tbody{
+	/*overflow-x:hidden;*/
+	/*height:350px;*/
+}
+#configscontainer tr{
+	
+}
+thead{
+	background-color: #207B02; 
+	color: #ffffff;
+	}
+thead th{
+	padding-left: 5px;
+	padding-right:5px;
+}
+#machineDetailcontainer{
+	position:absolute;
+	top:630px;
+	left:90px;
+	overflow:auto;
+	width:500px;
+}
+#machineDetailcontainer table{
+	width:100%;
+}
+#machineDetailcontainer tbody{
+	overflow-x:hidden;
+	height:180px;
+}
+#machineDetailcontainer tbody tr{
+	height:12px;
+}
+#runningcontainer{
+	position:absolute;
+	top:150px;
+	left:940px;
+	width:350px;
+	overflow:auto;
+	background:#A1CE93;
+	opacity:0.9;
+}
+.hoverLine{
+	background-color:#4dd034;
+}
+#loading{
+	display:none;
+	left:50%;
+	top:50%;
+	position:absolute;
+	z-index:3000;
+	border:1px solid #000000;
+	background-color:#FFFFFF;
+}
+#mogilogo{
+ position: absolute; top: 25px; left: 0px; width: 90px; height: 60px;
+	cursor:pointer;
+}
+#mogilink{
+	position: absolute; top: 110px; left: 90px; width: 180px; height: 30px;
+	cursor:pointer;
+}
+#reload{
+	position: absolute; top: 110px; left: 270px; width: 180px; height: 30px;
+	cursor:pointer;
+}
